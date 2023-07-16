@@ -29,7 +29,7 @@ spec:
         path: '{{path}}'
       destination:
         server: '{{server}}'
-        namespace: default
+        namespace: argocd
       syncPolicy:
         syncOptions:
           - CreateNamespace=true  
